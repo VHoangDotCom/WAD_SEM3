@@ -42,3 +42,9 @@ link : https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/gett
 link: https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
      
 17. Create About Page ( not required )
+
+18. Warning : Update Model + Controller + Viewmodel => move to step 9
+
+
+Source Code : https://github.com/VHoangDotCom/WAD_SEM3/tree/main/MVCSystemDemo
+View Model : https://github.com/VHoangDotCom/Projects_Sem3_Ap/blob/main/Web%20Application%20Development/HelloWorldSem2/HelloWorldSem2/Models/ViewModel/AdminViewModel.cs

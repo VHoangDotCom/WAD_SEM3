@@ -88,3 +88,4 @@ D:\epc\Ap-Sem3\Web Application Development\Test Projects\MVCSystemDemo\MVCSystem
 D:\epc\Ap-Sem3\Web Application Development\Test Projects\MVCSystemDemo\MVCSystemDemo\bin\PagedList.Mvc.dll
 D:\epc\Ap-Sem3\Web Application Development\Test Projects\MVCSystemDemo\MVCSystemDemo\bin\PagedList.xml
 D:\epc\Ap-Sem3\Web Application Development\Test Projects\MVCSystemDemo\MVCSystemDemo\bin\PagedList.Mvc.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\MVCSystemDemo\MVCSystemDemo\obj\Debug\MVCSystemDemo.Migrations.UpdateViewModel.resources
