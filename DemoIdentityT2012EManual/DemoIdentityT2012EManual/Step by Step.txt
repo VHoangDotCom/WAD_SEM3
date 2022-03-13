@@ -1,0 +1,234 @@
+Authorize + Manage role in MVC
+1. Install 3 Nuget
+Microsoft.AspNet.Identity.Owin (2.2.3)
+Microsoft.AspNet.Identity.EntityFramework (2.2.3)
+Microsoft.Owin.Host.SystemWeb (4.2.0)
+
+2. Tạo file IdentityConfig.cs trong thư mục App_Start
+
+ Viết hàm public void Configuration(IAppBuilder app) với nội dung như sau.
+
+ public void Configuration(IAppBuilder app) {
+    app.UseCookieAuthentication(new CookieAuthenticationOptions
+    {
+        AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
+        LoginPath = new PathString("/Account/Login"),
+    });
+  }
+
+3.Sửa file Web.config, trong thẻ <appSettings> thêm nội dung sau.
+
+<add key="owin:AppStartup" value="IdentityManualAgain.App_Start.IdentityConfig" /> ( thay ten project cho IdentityManualAgain )
+
+4.Tạo class lưu thông tin User (Account), extend từ lớp IdentityUser trong thư mục Models.
+Khai báo thêm một số properties sao cho phù hợp với yêu cầu bài toán. Đây là sẽ là class mapping với bảng User
+ở trong database.
+
+5.Tạo lớp MyIdentityDbContext kế thứ từ lớp IdentityDbContext. Lưu ý IdentityDbContext là một phiên bản khác
+của DbContext nhưng có hỗ trợ các phần quản lý liên quan đến Users và Roles trong hệ thống.
+
+Tạo thư mục Data
+
+Tạo file MyIdentityDbContext trong thư mục Data với nội dung như sau.
+
+public class MyIdentityDbContext: IdentityDbContext<Account>
+{
+    public MyIdentityDbContext(): base("ConnectionString")
+    {
+
+    }
+}
+
+Bổ xung một số DbSet để thao tác với database trong trường hợp cần thiết.
+
+6.Cấu hình ConnectionString trong file Web.config. Thêm nội dung như sau bên trong thẻ configuration.
+
+<connectionStrings>
+    <add name="ConnectionString" connectionString="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\IdentityManualAgain.mdf;Initial Catalog=IdentityManualAgain;Integrated Security=True" providerName="System.Data.SqlClient" />
+</connectionStrings>
+( thay ten project cho IdentityManualAgain )
+
+7.Thực hiện các câu lệnh sau để tiến hành migrate. Tools > Nuget Package Manager > Package Manager Console
+
+Enable-Migrations. Thực hiện một lần trong project.
+Add-Migration và nhập tên InitDatabase. Mỗi lần có thay đổi thì thực hiện với nội dung thay đổi.
+Update-Database tiến hành thực hiện thay đổi vào database.
+
+8.Add Seeder Role in Migrations/Configuration.cs
+ context.Roles.AddOrUpdate(new Microsoft.AspNet.Identity.EntityFramework.IdentityRole()
+            {
+                Id = "e6b67954-eb2f-47cd-a85a-3a8602e2a920",
+                Name = "Admin"
+            });
+            context.Roles.AddOrUpdate(new Microsoft.AspNet.Identity.EntityFramework.IdentityRole()
+            {
+                Id = "5ed1174f-fd13-4996-b12c-f206c9276d8c",
+                Name = "User"
+            });
+            context.Roles.AddOrUpdate(new Microsoft.AspNet.Identity.EntityFramework.IdentityRole()
+            {
+                Id = "4fc67c9c-7d69-4533-8c7c-9f5d0976f71d",
+                Name = "Employee"
+            });
+            context.SaveChanges();
+
+9. Create empty AccountController
+  Tao cac function Login + Register + Logout + ChangeStatus + Change Role
+   VD:
+    public class AccountsController : Controller
+    {
+        private MyIdentityDbContext db;
+        private UserManager<Account> userManager;                     
+        private RoleManager<IdentityRole> roleManager;                     
+
+        public AccountsController()
+        {
+            db = new MyIdentityDbContext();            
+            UserStore<Account> userStore = new UserStore<Account>(db);
+            RoleStore<IdentityRole> roleStore = new RoleStore<IdentityRole>(db);
+            userManager = new UserManager<Account>(userStore);
+            roleManager = new RoleManager<IdentityRole>(roleStore);        
+        }
+
+        [Authorize(Roles = "User")]
+        public ActionResult UserPage() {
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult AdminPage()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Employee")]
+        public ActionResult EmployeePage()
+        {
+            return View();
+        }
+
+        // GET: Accounts
+        public ActionResult Index()
+        {
+            ViewData["userManager"] = userManager;
+            ViewData["roles"] = roleManager.Roles.ToList();
+            var list = userManager.Users.ToList();
+            return View(list);
+        }
+
+        public ActionResult Register() {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Register(AccountRegisterViewModel accountViewModel)
+        {           
+            Account account = new Account()
+            {
+                UserName = accountViewModel.UserName,
+                Email = accountViewModel.Email,
+                PhoneNumber = accountViewModel.Phone,
+                IdentityNumber = accountViewModel.IdentityNumber,
+                Status = accountViewModel.Status
+            };            
+            var result = await userManager.CreateAsync(account, accountViewModel.Password);
+            if (result.Succeeded)
+            {
+                return View("CreateAccountSuccess");
+            }
+            else
+            {
+                return View("CreateAccountFails");
+            }            
+        }
+
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Login(LoginViewModel loginViewModel)
+        {
+            // sử dụng userManager để check thông tin đăng nhập.
+            var account = await userManager.FindAsync(loginViewModel.Username, loginViewModel.Password);
+            if (account != null)
+            {
+                // đăng nhập  thành công thì dùng SignInManager để lưu lại thông tin vừa đăng nhập.
+                var signInManager = new SignInManager<Account, string>(userManager, Request.GetOwinContext().Authentication);
+                await signInManager.SignInAsync(account, isPersistent: false, rememberBrowser: false);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return View("CreateAccountFails");
+            }            
+        }
+
+        public ActionResult Logout()
+        {
+            HttpContext.GetOwinContext().Authentication.SignOut();
+            return Redirect("/Accounts/Login");
+        }
+
+        public ActionResult ChangeStatus(string ids, string statusToChange) {
+            var arrayId = ids.Split(new[]{ ',' }, System.StringSplitOptions.RemoveEmptyEntries);
+            var accounts = db.Users.Where(f => arrayId.Contains(f.Id)).ToList();
+            accounts.ForEach(a => a.Status = Int32.Parse(statusToChange));
+            db.SaveChanges();
+            ViewData["userManager"] = userManager;
+            ViewData["roles"] = roleManager.Roles.ToList();
+            var list = userManager.Users.ToList();
+            return PartialView("ListAccount", list);
+        }
+
+        public ActionResult ChangeRole(string roleIds, string roleToChange)
+        {
+            var arrayId = roleIds.Split(new[] { ',' }, System.StringSplitOptions.RemoveEmptyEntries);
+            IdentityRole role =  db.Roles.Find(roleToChange);
+            if (role == null) {
+                return View("CreateAccountFails");
+            }
+            var accounts = db.Users.Where(f => arrayId.Contains(f.Id)).ToList();
+            foreach (var acc in accounts) {
+                if(userManager.IsInRole(acc.Id, roleToChange)){
+                    continue;
+                }
+                userManager.AddToRole(acc.Id, role.Name);                
+            }            
+            ViewData["userManager"] = userManager;
+            ViewData["roles"] = roleManager.Roles.ToList();
+            var list = userManager.Users.ToList();
+            return PartialView("ListAccount", list);
+        }
+    }
+
+10. Tao Page Register( bo muc DataContext) create Account
+   Bo 1 so truong ko can thiet
+
+11.Tao folder ViewModel trong Models
+ Tao class AccountRegisterViewModel
+  VD: 
+      public class AccountRegisterViewModel
+    {
+        [DisplayName("Identity Number")]
+        public string IdentityNumber { get; set; }
+        [DisplayName("UserName")]
+        public string UserName { get; set; }
+        [DisplayName("Password")]
+        public string Password { get; set; }
+        [DisplayName("Confirm Password")]
+        public string ConfirmPassword { get; set; }
+        [DisplayName("Phone Number")]
+        public string Phone { get; set; }
+        [DisplayName("Email")]
+        public string Email { get; set; }
+        [DisplayName("Status")]
+        public int Status { get; set; }
+    }
+
+12. Update cac View Index + Create ... 
+ Ajax + Jquery

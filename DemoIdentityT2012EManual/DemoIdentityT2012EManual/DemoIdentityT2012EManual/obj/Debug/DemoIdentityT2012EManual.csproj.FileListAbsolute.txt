@@ -1,0 +1,205 @@
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.Migrations.InitDb.resources
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.Migrations.UpdateDatabase.resources
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.GenerateResource.cache
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.CoreCompileInputs.cache
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\DemoIdentityT2012EManual.dll.config
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\DemoIdentityT2012EManual.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\DemoIdentityT2012EManual.pdb
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csc.exe
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csc.exe.config
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csc.rsp
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csi.exe
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csi.exe.config
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csi.rsp
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.AppContext.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Console.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.Compression.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Net.Http.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Net.Sockets.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.ValueTuple.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.XPath.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\vbc.exe
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\vbc.exe.config
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\vbc.rsp
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\VBCSCompiler.exe
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Antlr3.Runtime.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.SqlServer.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Newtonsoft.Json.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Owin.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Helpers.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Mvc.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Optimization.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Razor.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Deployment.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Razor.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\WebGrease.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.SqlServer.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Helpers.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Mvc.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Optimization.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Razor.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Deployment.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Razor.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Newtonsoft.Json.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Antlr3.Runtime.pdb
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.dll
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.pdb
+C:\Users\xuanhung\source\repos\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.AssemblyReference.cache
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\DemoIdentityT2012EManual.dll.config
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\DemoIdentityT2012EManual.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\DemoIdentityT2012EManual.pdb
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csc.exe
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csc.exe.config
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csc.rsp
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csi.exe
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csi.exe.config
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\csi.rsp
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.Managed.Core.targets
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.AppContext.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Collections.Immutable.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Console.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Globalization.Calendars.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.Compression.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.FileSystem.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Net.Http.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Net.Sockets.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Reflection.Metadata.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.ValueTuple.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.XmlDocument.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.XPath.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\vbc.exe
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\vbc.exe.config
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\vbc.rsp
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\VBCSCompiler.exe
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\roslyn\VBCSCompiler.exe.config
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Antlr3.Runtime.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.SqlServer.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Core.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.Cookies.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.OAuth.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Web.Infrastructure.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Newtonsoft.Json.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Owin.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Helpers.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Mvc.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Optimization.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Razor.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Deployment.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Razor.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\WebGrease.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\EntityFramework.SqlServer.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Core.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.Cookies.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.Owin.Security.OAuth.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Helpers.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Mvc.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Optimization.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.Razor.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Deployment.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\System.Web.WebPages.Razor.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Newtonsoft.Json.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Antlr3.Runtime.pdb
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.AssemblyReference.cache
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.Migrations.InitDb.resources
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.Migrations.UpdateDatabase.resources
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.GenerateResource.cache
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.CoreCompileInputs.cache
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.csproj.CopyComplete
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.dll
+D:\epc\Ap-Sem3\Web Application Development\Test Projects\DemoIdentityT2012EManual\DemoIdentityT2012EManual\DemoIdentityT2012EManual\obj\Debug\DemoIdentityT2012EManual.pdb

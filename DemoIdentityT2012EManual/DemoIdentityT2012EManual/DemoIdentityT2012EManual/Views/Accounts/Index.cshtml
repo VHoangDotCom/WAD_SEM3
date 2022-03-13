@@ -1,0 +1,150 @@
+﻿@model IEnumerable<DemoIdentityT2012EManual.Models.Account>
+@using Microsoft.AspNet.Identity;
+@using Microsoft.AspNet.Identity.EntityFramework;
+@using DemoIdentityT2012EManual.Models;
+@{
+    ViewBag.Title = "Index";
+    var userManager = ViewData["userManager"] as UserManager<Account>;
+    var listRole = ViewData["roles"] as List<IdentityRole>;
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Ajax.BeginForm("ChangeStatus", "Accounts",
+new AjaxOptions
+{
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "GET",
+    OnFailure = "searchFailed",
+    LoadingElementId = "ajax-loader",
+    UpdateTargetId = "result",
+}, new { @id = "ajaxForm" }))
+{
+
+    <div style="margin:10px">
+        <input type="hidden" name="ids" value="" />
+        Change all checked items
+        <select name="statusToChange">
+            <option value="_">Choose status</option>
+            <option value="-1">Deactive</option>
+            <option value="0">Pending</option>
+            <option value="1">Active</option>
+        </select>
+        <button>Apply</button>
+    </div>
+}
+
+@using (Ajax.BeginForm("ChangeRole", "Accounts",
+new AjaxOptions
+{
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "GET",
+    OnFailure = "searchFailed",
+    LoadingElementId = "ajax-loader",
+    UpdateTargetId = "result",
+}, new { @id = "roleForm" }))
+{
+
+    <div style="margin:10px">
+        <input type="hidden" name="roleIds" value="" />
+        Change all checked items
+        <select name="roleToChange">
+            <option value="_">Choose role</option>
+            @foreach (var role in listRole) { 
+                <option value="@role.Id">@role.Name</option>
+            }
+        </select>
+        <button>Apply</button>
+    </div>
+}
+<table class="table" id="result">
+    <tr>
+        <th>
+            <input type="checkbox" name="checkAll" class="checkbox-item" id="checkAll" />
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Roles)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdentityNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <input type="checkbox" name="checkItem" class="checkbox-item" value="@item.Id" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @{
+                    var roles = userManager.GetRoles(@item.Id);
+                }
+                @string.Join(", ", roles)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentityNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('click', function (e) {
+            if (e.target && e.target.id == 'checkAll') {
+                var checkboxes = document.querySelectorAll('input[name=checkItem]');
+                for (var i = 0; i < checkboxes.length; i++) {
+                    checkboxes[i].checked = e.target.checked;
+                }
+                updateIds();
+            } else if (e.target && e.target.classList.contains('checkbox-item')) {
+                updateIds();
+            }
+        });
+
+        function updateIds() {
+            var checkedBox = document.querySelectorAll('input[name=checkItem]:checked');
+            var ids = "";
+            for (var i = 0; i < checkedBox.length; i++) {
+                console.log(checkedBox[i].value);
+                ids += checkedBox[i].value + ",";
+            }
+            document.querySelector('input[name=ids]').value = ids;
+            document.querySelector('input[name=roleIds]').value = ids;
+        }
+    })
+</script>
