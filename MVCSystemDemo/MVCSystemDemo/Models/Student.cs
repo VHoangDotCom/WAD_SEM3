@@ -2,30 +2,18 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
 namespace MVCSystemDemo.Models
 {
-    public class Student
+    public class Student:Person
     {
-        //ID
-        public int ID { get; set; }
-
-        //LastName
-        [Required]
-        [StringLength(20, MinimumLength = 2)]
-        public string LastName { get; set; }
-
-        //Fisrt name
-        [Required]
-        [StringLength(20, MinimumLength = 2)]
-        public string FirstMidName { get; set; }
-
-        //Enrollment date
-        [Required]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Enrollment Date")]
         public DateTime EnrollmentDate { get; set; }
-
         public virtual ICollection<Enrollment> Enrollments { get; set; }
 
         public Student()

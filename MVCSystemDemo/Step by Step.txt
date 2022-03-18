@@ -45,6 +45,36 @@ link: https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getti
 
 18. Warning : Update Model + Controller + Viewmodel => move to step 9
 
-
+19. Implement CRUD 
+link: https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application
 Source Code : https://github.com/VHoangDotCom/WAD_SEM3/tree/main/MVCSystemDemo
 View Model : https://github.com/VHoangDotCom/Projects_Sem3_Ap/blob/main/Web%20Application%20Development/HelloWorldSem2/HelloWorldSem2/Models/ViewModel/AdminViewModel.cs
+
+20. Enhance + develop Entity
+    [Column("FirstName")] in Models/Student
+
+21. Load + update related data (Select) (Updating related data )
+link : https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application
+
+22. Use async and stored procedures with EF
+link: https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/async-and-stored-procedures-with-the-entity-framework-in-an-asp-net-mvc-application
+
+23. Handle Concurrency with EF ( Delete objects when another are using or Update)
+note: A concurrency conflict occurs when one user displays an entity's data in order to edit it, and
+then another user updates the same entity's data before the first user's change is written to the 
+database
+link : https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application
+
+24. implement inheritance in the data model
+link : https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application
+
+25. advanced EF Scenarios
+link : https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/advanced-entity-framework-scenarios-for-an-mvc-web-application
+<dang xem>
+
+ DEPLOY TO AZURE (Sign in by GIt hub)
+ TK : viethoang2001gun@gmail.com
+ MK : thucu2001
+
+1. Sign in to Microsif Azure
+2. Choose : Create a resource -> See all -> New -> Web App + SQL

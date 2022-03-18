@@ -51,7 +51,34 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.3\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=4.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.2.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.2.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
     <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
     </Reference>
@@ -131,13 +158,22 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Data\SchoolConfiguration.cs" />
     <Compile Include="Data\SchoolContext.cs" />
+    <Compile Include="Data\SchoolInterceptorLogging.cs" />
+    <Compile Include="Data\SchoolInterceptorTransientErrors.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\Logger.cs" />
     <Compile Include="Migrations\202203090921569_InitDatabase..cs" />
     <Compile Include="Migrations\202203090921569_InitDatabase..designer.cs">
       <DependentUpon>202203090921569_InitDatabase..cs</DependentUpon>
@@ -150,12 +186,45 @@
     <Compile Include="Migrations\202203091059127_UpdateViewModel.Designer.cs">
       <DependentUpon>202203091059127_UpdateViewModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203140225322_updateStudent.cs" />
+    <Compile Include="Migrations\202203140225322_updateStudent.Designer.cs">
+      <DependentUpon>202203140225322_updateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203140957550_ColumnFirstName.cs" />
+    <Compile Include="Migrations\202203140957550_ColumnFirstName.Designer.cs">
+      <DependentUpon>202203140957550_ColumnFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203141117316_ComplexDataModel.cs" />
+    <Compile Include="Migrations\202203141117316_ComplexDataModel.Designer.cs">
+      <DependentUpon>202203141117316_ComplexDataModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203170353210_DepartmentSP.cs" />
+    <Compile Include="Migrations\202203170353210_DepartmentSP.Designer.cs">
+      <DependentUpon>202203170353210_DepartmentSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203170825418_RowVersion.cs" />
+    <Compile Include="Migrations\202203170825418_RowVersion.Designer.cs">
+      <DependentUpon>202203170825418_RowVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203171523128_Inheritance.cs" />
+    <Compile Include="Migrations\202203171523128_Inheritance.Designer.cs">
+      <DependentUpon>202203171523128_Inheritance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\ViewModels\AssignedCourseData.cs" />
     <Compile Include="Models\ViewModels\EnrollmentDateGroup.cs" />
+    <Compile Include="Models\ViewModels\InstructorIndexData.cs" />
     <Compile Include="Models\ViewModels\StudentViewModel.cs" />
+    <Compile Include="MyFilter\CustomExceptionFilter.cs" />
+    <Compile Include="MyFilter\IExceptionFilter.cs" />
+    <Compile Include="MyFilter\MyActionFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -203,6 +272,22 @@
     <Content Include="Views\Student\Edit.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
     <Content Include="Views\Student\IndexAjax.cshtml" />
+    <Content Include="Views\Course\Create.cshtml" />
+    <Content Include="Views\Course\Delete.cshtml" />
+    <Content Include="Views\Course\Details.cshtml" />
+    <Content Include="Views\Course\Edit.cshtml" />
+    <Content Include="Views\Course\Index.cshtml" />
+    <Content Include="Views\Instructor\Create.cshtml" />
+    <Content Include="Views\Instructor\Delete.cshtml" />
+    <Content Include="Views\Instructor\Details.cshtml" />
+    <Content Include="Views\Instructor\Edit.cshtml" />
+    <Content Include="Views\Instructor\Index.cshtml" />
+    <Content Include="Views\Department\Create.cshtml" />
+    <Content Include="Views\Department\Delete.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
+    <Content Include="Views\Department\Edit.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
+    <Content Include="Views\Course\UpdateCourseCredits.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -229,6 +314,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203091059127_UpdateViewModel.resx">
       <DependentUpon>202203091059127_UpdateViewModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203140225322_updateStudent.resx">
+      <DependentUpon>202203140225322_updateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203140957550_ColumnFirstName.resx">
+      <DependentUpon>202203140957550_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203141117316_ComplexDataModel.resx">
+      <DependentUpon>202203141117316_ComplexDataModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203170353210_DepartmentSP.resx">
+      <DependentUpon>202203170353210_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203170825418_RowVersion.resx">
+      <DependentUpon>202203170825418_RowVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203171523128_Inheritance.resx">
+      <DependentUpon>202203171523128_Inheritance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

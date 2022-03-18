@@ -28,6 +28,8 @@ namespace MVCSystemDemo.Models.ViewModels
         //Enrollment date
         [DisplayName("Enrollment date")]
         [Required(ErrorMessage = "Please enter Enrollment date !")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime EnrollmentDate { get; set; }
 
         public StudentViewModel()

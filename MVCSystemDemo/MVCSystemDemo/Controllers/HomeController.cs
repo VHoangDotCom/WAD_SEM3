@@ -5,27 +5,41 @@ using System.Web;
 using System.Web.Mvc;
 using MVCSystemDemo.Data;
 using MVCSystemDemo.Models.ViewModels;
+using MVCSystemDemo.MyFilter;
 
 namespace MVCSystemDemo.Controllers
 {
+   
     public class HomeController : Controller
     {
         private SchoolContext db = new SchoolContext();
+        [CustomExceptionFilter]
         public ActionResult Index()
         {
-            return View();
+            throw new NullReferenceException("This is error");
+
+            //return View();
 
         }
 
         public ActionResult About()
         {
-            IQueryable<EnrollmentDateGroup> data = from student in db.Students
-                                                   group student by student.EnrollmentDate into dateGroup
-                                                   select new EnrollmentDateGroup()
-                                                   {
-                                                       EnrollmentDate = dateGroup.Key,
-                                                       StudentCount = dateGroup.Count()
-                                                   };
+            // Commenting out LINQ to show how to do the same thing in SQL.
+            //IQueryable<EnrollmentDateGroup> = from student in db.Students
+            //           group student by student.EnrollmentDate into dateGroup
+            //           select new EnrollmentDateGroup()
+            //           {
+            //               EnrollmentDate = dateGroup.Key,
+            //               StudentCount = dateGroup.Count()
+            //           };
+
+            // SQL version of the above LINQ code.
+            string query = "SELECT EnrollmentDate, COUNT(*) AS StudentCount "
+                + "FROM Person "
+                + "WHERE Discriminator = 'Student' "
+                + "GROUP BY EnrollmentDate";
+            IEnumerable<EnrollmentDateGroup> data = db.Database.SqlQuery<EnrollmentDateGroup>(query);
+
             return View(data.ToList());
         }
 
